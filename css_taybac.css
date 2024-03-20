@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #31b0b9;
+    color: #fff;
+    padding: 20px;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  .nav ul li{margin-right: 20px;}
+.nav ul li:hover{background-color: black;
+  padding: 10px;}
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+
+  body{padding: 20px;
+    font-family: sans-serif;
+    background-color: aliceblue;}
+    img{width: 100%;
+    height: auto;}
+    h3{margin-bottom: .5em; color: brown;
+    text-shadow: 1px 1px 2px green;}
+    .gril-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+        grid-gap: 1em ;
+    }
+    .localtion-listing{position: relative;}
+    .localtion-image{line-height: 0px;
+    overflow: hidden;
+    }
+    .localtion-image img{
+        filter: blur(0px);
+        transition: filter 0.35s ease-in-out;
+        transform: scale(1.1);
+        width: 300px;
+        height: 170px;
+    }
+    .localtion-title{
+        font-size: 1.5em;
+        font-weight: bold;
+        text-decoration: none;
+        z-index: 1;
+        position: absolute;
+        height: 70%; width: 100%;
+        top: 0; left: 0;
+        opacity: 0;
+        transition: opaticy .5s;
+        background-color: rgba(216, 189, 194, 0.4);
+        color: rgb(2, 2, 2);
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .localtion-listing a{padding-top: 50px;}
+    .localtion-listing:hover .localtion-title{opacity: 1;}
+    .localtion-listing:hover .Localtion-image{filter: blur(2px);}
+    .localtion-listing:hover .localtion-title{
+        opacity: 1;
+    }
+    .localtion-listing:hover .localtion-image{filter:blur(3px);}
+    @media(hover:none){.localtion-title{opacity:1;}
+    .localtion-image img{filter:blur(3px);}}
+  #messgage{margin-left: 52px;}
+  footer {
+    background-color: #31b0b9;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
